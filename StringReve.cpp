@@ -1,0 +1,19 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include<string>
+using namespace std;
+void funcRev(string &str,int i=0){
+    if(i<str.length()/2)
+    {
+        swap(str[i],str[str.length()-i-1]);
+        funcRev(str,i+1);
+    }
+}
+int main() {
+    // Write C++ code here
+   string str="teri ma ka bhumda";
+   funcRev(str);
+   cout<<str<<endl;
+
+    return 0;
+}
