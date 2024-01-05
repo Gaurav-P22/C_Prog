@@ -11,7 +11,7 @@ void funcRev(string &str,int i=0){
 }
 int main() {
     // Write C++ code here
-   string str="teri ma ka bhumda";
+   string str="XYZ";
    funcRev(str);
    cout<<str<<endl;
 
