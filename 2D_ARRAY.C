@@ -5,7 +5,6 @@ void main()
 void printArray(int[][3],int,int);
 void printLowerElement(int[][3],int,int);
 void printUpperElement(int[][3],int,int);
-
 int a[3][3],i,j;
 clrscr();
 printf("Enter the ELement in the array");
